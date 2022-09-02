@@ -1,0 +1,15 @@
+{
+    "name": "test-package",
+    "resources": [
+        {
+            "name": "first-resource",
+            "path": "https://raw.githubusercontent.com/fdtester/test-repo-with-datapackage-json/master/table.xls",
+            "schema": {
+                "fields": [
+                    {"name": "id", "type": "number"},
+                    {"name": "name", "type": "string"},
+                ]
+            },
+        }
+    ],
+}
